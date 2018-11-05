@@ -1,0 +1,7 @@
+applications:
+- name: multibpapp
+  buildpacks:
+  - python_buildpack
+  - java_buildpack
+  memory: 1G
+  path: ./build/libs/multi-buildpack-0.0.1-SNAPSHOT.jar
